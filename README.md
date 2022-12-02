@@ -13,4 +13,4 @@ The main function of this project is to present a little about the fourth season
 * `Firebase`: Store the data written in the form
 
 # 📁 Project access
-You can [access the source code](https://github.com/ArturColen/InvertedWorld) or [view the hosted page](https://arturcolen.github.io/InvertedWorld).
+You can [access the source code](https://github.com/ArturColen/InvertedWorld) or [view the hosted page](https://invertedworld.surge.sh).
