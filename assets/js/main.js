@@ -1,5 +1,5 @@
 // Import script from database
-import { getHellfireClubSubscriptions, subscribeToHellfireClub } from './firebase/hellfire-club.js'
+import { getHellfireClubSubscriptions, subscribeToHellfireClub } from './firebase/hellfire-club.js';
 
 // Create constants for each form field
 const txtName = document.getElementById('txtName');
@@ -14,10 +14,10 @@ btnSubscribe.addEventListener('click', async () => {
         email: txtEmail.value,
         level: txtLevel.value,
         character: txtCharacter.value
-    }
+    };
 
     // Save data in the database
-    const subscriptionId = await subscribeToHellfireClub(subscription)
+    const subscriptionId = await subscribeToHellfireClub(subscription);
 
     // Clear form fields
     txtName.value = ''
@@ -31,4 +31,4 @@ async function loadData() {
     console.log(subscriptions)
 }
 
-loadData()
+loadData();
