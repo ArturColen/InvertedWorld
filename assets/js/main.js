@@ -20,15 +20,15 @@ btnSubscribe.addEventListener('click', async () => {
     const subscriptionId = await subscribeToHellfireClub(subscription);
 
     // Clear form fields
-    txtName.value = ''
-    txtEmail.value = ''
-    txtLevel.value = ''
-    txtCharacter.value = ''
+    txtName.value = '';
+    txtEmail.value = '';
+    txtLevel.value = '';
+    txtCharacter.value = '';
 })
 
 async function loadData() {
-    const subscriptions = await getHellfireClubSubscriptions()
-    console.log(subscriptions)
+    const subscriptions = await getHellfireClubSubscriptions();
+    console.log(subscriptions);
 }
 
 loadData();
