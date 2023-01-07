@@ -1,4 +1,5 @@
-# Creation of the Inverted World landing page
+# Inverted World landing page
+
 Project developed from the Front-end week held by [Digital Innovation One](https://www.dio.me/). Its main objective is, in addition to teaching about the main technologies of the Front-end (HTML, CSS and JavaScript), to create a landing page with a little about the fourth season of the Stranger Things series.
 
 ![Inverted World landing page image](https://user-images.githubusercontent.com/96635074/195481231-2a82fd4e-3547-42e8-9556-df96160db140.png)
